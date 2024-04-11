@@ -1,0 +1,490 @@
+{
+    "promotion": [
+        {
+            "name": "Hydration Hero",
+            "description": "Drink your way to glowing skin! Save on water bottles & infusers",
+            "offer_range": "25% off select water bottles & infusers",
+            "image": "https://assets-global.website-files.com/6492bbb37e861bae839b64d8/657d2663728c9a6088e6695e_Fitness%20Man.png"
+        },
+        {
+            "name": "Moisture Must-Haves",
+            "description": "Replenish & revive! Save on hydrating skincare & haircare",
+            "offer_range": "Up to 40% off hydrating skincare & haircare",
+            "image": "https://assets-global.website-files.com/6492bbb37e861bae839b64d8/657d2e6562d48bffd47d66c1_Hydrated%20Woman.png"
+        },
+        {
+            "name": "Glow Getter Bundle",
+            "description": "Unleash your inner radiance! Save on a bundle of hydrating favorites",
+            "offer_range": "Free gift with purchase of hydrating skincare bundle",
+            "image": "https://media.istockphoto.com/id/1300459022/photo/natural-organic-spa-cosmetic-products-set-with-eucalyptus-leaves-top-view-herbal-skincare.jpg?s=612x612&w=0&k=20&c=_xkB2_OnFqzJKVdDCeNCPeMp4jwLTsSQy2VvRloiPgk="
+        },
+        {
+            "name": "Self-Care Sanctuary",
+            "description": "Relax & recharge! Save on bath & body essentials for hydration",
+            "offer_range": "Buy 1 Get 1 50% off on bath & body products",
+            "image": "https://assets-global.website-files.com/6492bbb37e861bae839b64d8/657915a81d492f903ff9ce55_Untitled%20design-6.png"
+        },
+        {
+            "name": "Inner & Outer Beauty",
+            "description": "Nourish your body & boost your glow! Save on hydrating supplements & beauty tools",
+            "offer_range": "15% off hydrating supplements.",
+            "image": "https://assets-global.website-files.com/6492bbb37e861bae839b64d8/657d2663728c9a6088e6695e_Fitness%20Man.png"
+        }
+    ],
+    "promtional-produts": [
+        {
+            "name": "Hydrating Rose Serum",
+            "image": "https://img.freepik.com/free-vector/vector-illustration-set-packaging-cosmetics-realistic-style_1441-468.jpg?w=740&t=st=1710683910~exp=1710684510~hmac=985687e3ac212ae213b1e2b066109ee377fec3da55ae685bbc887a63f6ef4824",
+            "description": "This lightweight serum is infused with rose water and hyaluronic acid to deeply hydrate and nourish your skin, leaving it feeling plump and dewy."
+        },
+        {
+            "name": "Glow Boost Moisturizer",
+            "image": "https://img.freepik.com/free-photo/pack-three-lotion-container_1203-1847.jpg?w=360&t=st=1710683960~exp=1710684560~hmac=0859bee09f27971d73ce5823e1d922d07178585c935520c1a75793d38f37546b",
+            "description": "This luxurious moisturizer combines vitamin C and vitamin E to brighten your complexion and provide long-lasting hydration. It also protects your skin from free radical damage."
+        },
+        {
+            "name": "Sparkling Mineral Water Mist",
+            "image": "https://img.freepik.com/free-vector/blue-glass-spray-bottle_88138-34.jpg?1&w=740&t=st=1710684008~exp=1710684608~hmac=8318b3bf6364b58c0ddedba20968ec11d467de1bb69451e36f5232ba4a6a7d72",
+            "description": "This refreshing mist is formulated with mineral water and botanical extracts to instantly hydrate and revitalize your skin. It's perfect for a midday pick-me-up or to set your makeup."
+        },
+        {
+            "name": "Nourishing Overnight Mask",
+            "image": "https://img.freepik.com/free-photo/pack-three-lotion-container_1203-1847.jpg?w=360&t=st=1710683960~exp=1710684560~hmac=0859bee09f27971d73ce5823e1d922d07178585c935520c1a75793d38f37546b",
+            "description": "This rich and creamy mask works its magic while you sleep. It's packed with hydrating and nourishing ingredients to leave your skin feeling soft, supple, and radiant in the morning."
+        },
+        {
+            "name": "Exfoliating Fruit Enzyme Mask",
+            "image": "https://img.freepik.com/free-vector/blue-glass-spray-bottle_88138-34.jpg?1&w=740&t=st=1710684008~exp=1710684608~hmac=8318b3bf6364b58c0ddedba20968ec11d467de1bb69451e36f5232ba4a6a7d72",
+            "description": "This gentle yet effective mask uses fruit enzymes to remove dead skin cells and reveal a brighter, more even complexion. It also helps to boost hydration and leave your skin feeling smooth and refreshed."
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "image": "https://img.freepik.com/free-psd/shampoo-bottle-isolated-transparent-background_191095-25560.jpg?w=740&t=st=1710683832~exp=1710684432~hmac=4d56c96776258b6fcf6f8ed55764460aa757a50ff9208dfc464e9b755689e10c",
+            "name": "Wireless Headphones",
+            "description": "Listen to your music wirelessly with these comfortable headphones.",
+            "original_price": 79.99,
+            "discount": 10,
+            "discount_price": 71.99
+        },
+        {
+            "id": 2,
+            "image": "https://img.freepik.com/free-vector/vector-illustration-set-packaging-cosmetics-realistic-style_1441-468.jpg?w=740&t=st=1710683910~exp=1710684510~hmac=985687e3ac212ae213b1e2b066109ee377fec3da55ae685bbc887a63f6ef4824",
+            "name": "Hydrating Rose Serum",
+            "description": "This lightweight serum is infused with rose water and hyaluronic acid to deeply hydrate and nourish your skin, leaving it feeling plump and dewy.",
+            "original_price": 199.99,
+            "discount": 15,
+            "discount_price": 170.0
+        },
+        {
+            "id": 3,
+            "image": "https://img.freepik.com/free-psd/body-wash-bottle-isolated-transparent-background_191095-25767.jpg?w=740&t=st=1710683930~exp=1710684530~hmac=c5b4cb7732b1015294ee92fae113e65aa8636d7693cebc6493b6ab27caf28ce4",
+            "name": "Laptop Backpack",
+            "description": "Carry your laptop and essentials comfortably with this stylish backpack.",
+            "original_price": 49.99,
+            "discount": 5,
+            "discount_price": 47.49
+        },
+        {
+            "id": 4,
+            "image": "https://img.freepik.com/free-photo/pack-three-lotion-container_1203-1847.jpg?w=360&t=st=1710683960~exp=1710684560~hmac=0859bee09f27971d73ce5823e1d922d07178585c935520c1a75793d38f37546b",
+            "name": "Wireless Speaker",
+            "description": "Fill your room with rich sound with this portable wireless speaker.",
+            "original_price": 99.99,
+            "discount": 20,
+            "discount_price": 79.99
+        },
+        {
+            "id": 5,
+            "image": "https://img.freepik.com/free-vector/cosmetic-gel-eyes-skin-care_88138-108.jpg?w=740&t=st=1710683986~exp=1710684586~hmac=f64ee60d4d1a428a1bce1e2fe341c7b0dc81599cc3c998642cefb23b5c3259fb",
+            "name": "Coffee Maker",
+            "description": "Start your day off right with a fresh cup of coffee from this coffee maker.",
+            "original_price": 39.99,
+            "discount": 0,
+            "discount_price": 39.99
+        },
+        {
+            "id": 6,
+            "image": "https://img.freepik.com/free-vector/blue-glass-spray-bottle_88138-34.jpg?1&w=740&t=st=1710684008~exp=1710684608~hmac=8318b3bf6364b58c0ddedba20968ec11d467de1bb69451e36f5232ba4a6a7d72",
+            "name": "Fitness Tracker",
+            "description": "Track your steps, calories, and more with this fitness tracker.",
+            "original_price": 44.99,
+            "discount": 7,
+            "discount_price": 41.74
+        },
+        {
+            "id": 7,
+            "image": "https://via.placeholder.com/150",
+            "name": "Mechanical Keyboard",
+            "description": "Enjoy a satisfying typing experience with this mechanical keyboard.",
+            "original_price": 129.99,
+            "discount": 18,
+            "discount_price": 106.39
+        },
+        {
+            "id": 8,
+            "image": "https://via.placeholder.com/150",
+            "name": "Noise Cancelling Headphones",
+            "description": "Block out distractions and immerse yourself in your music with these noise cancelling headphones.",
+            "original_price": 149.99,
+            "discount": 25,
+            "discount_price": 112.49
+        },
+        {
+            "id": 9,
+            "image": "https://via.placeholder.com/150",
+            "name": "Instant Pot",
+            "description": "Cook a variety of meals quickly and easily with this Instant Pot.",
+            "original_price": 79.99,
+            "discount": 12,
+            "discount_price": 70.79
+        },
+        {
+            "id": 10,
+            "image": "https://via.placeholder.com/150",
+            "name": "Gaming Mouse",
+            "description": "Take your gaming to the next level with this high-performance gaming mouse.",
+            "original_price": 59.99,
+            "discount": 8,
+            "discount_price": 55.19
+        },
+        {
+            "id": 11,
+            "image": "https://via.placeholder.com/150",
+            "name": "Smart Home Speaker",
+            "description": "Control your smart home devices with your voice with this smart home speaker.",
+            "original_price": 74.99,
+            "discount": 15,
+            "discount_price": 63.74
+        },
+        {
+            "id": 12,
+            "image": "https://via.placeholder.com/150",
+            "name": "Action Camera",
+            "description": "Capture your adventures in stunning detail with this action camera.",
+            "original_price": 199.99,
+            "discount": 10,
+            "discount_price": 179.99
+        },
+        {
+            "id": 13,
+            "image": "https://via.placeholder.com/150",
+            "name": "Wireless Charger",
+            "description": "Charge your phone wirelessly with this convenient wireless charger.",
+            "original_price": 29.99,
+            "discount": 20,
+            "discount_price": 23.99
+        },
+        {
+            "id": 14,
+            "image": "https://via.placeholder.com/150",
+            "name": "Drone",
+            "description": "Capture stunning aerial photos and videos with this easy-to-fly drone.",
+            "original_price": 249.99,
+            "discount": 25,
+            "discount_price": 187.49
+        },
+        {
+            "id": 15,
+            "image": "https://via.placeholder.com/150",
+            "name": "Portable Projector",
+            "description": "Enjoy movies and games on the big screen with this portable projector.",
+            "original_price": 149.99,
+            "discount": 8,
+            "discount_price": 137.99
+        },
+        {
+            "id": 16,
+            "image": "https://via.placeholder.com/150",
+            "name": "VR Headset",
+            "description": "Experience virtual reality with this VR headset.",
+            "original_price": 399.99,
+            "discount": 12,
+            "discount_price": 351.99
+        },
+        {
+            "id": 17,
+            "image": "https://via.placeholder.com/150",
+            "name": "3D Printer",
+            "description": "Bring your ideas to life with this 3D printer.",
+            "original_price": 499.99,
+            "discount": 18,
+            "discount_price": 409.99
+        },
+        {
+            "id": 18,
+            "image": "https://via.placeholder.com/150",
+            "name": "Gaming Headset",
+            "description": "Communicate with your teammates and hear every detail of the game with this gaming headset.",
+            "original_price": 99.99,
+            "discount": 15,
+            "discount_price": 84.99
+        },
+        {
+            "id": 19,
+            "image": "https://via.placeholder.com/150",
+            "name": "Smartwatch for Kids",
+            "description": "Keep track of your child's location and activity with this smartwatch for kids.",
+            "original_price": 79.99,
+            "discount": 10,
+            "discount_price": 71.99
+        },
+        {
+            "id": 20,
+            "image": "https://via.placeholder.com/150",
+            "name": "Portable Bluetooth Speaker",
+            "description": "Take your music anywhere with this portable Bluetooth speaker.",
+            "original_price": 49.99,
+            "discount": 20,
+            "discount_price": 39.99
+        }
+    ],
+    "allservices": [
+        {
+            "catagory": "HydroLife Health Boosts",
+            "services": [
+                {
+                    "id": 1,
+                    "name": "Beauty Boost",
+                    "duration": 30,
+                    "description": "Promotes collagen production, improves skin elasticity, reduces the appearance of wrinkles and fine lines, and boosts overall skin radiance."
+                },
+                {
+                    "id": 2,
+                    "name": "Men’s Health Boost",
+                    "duration": 30,
+                    "description": "Essential nutrients to support energy, promote vitality, enhance muscle function, and optimize overall well-being for men."
+                },
+                {
+                    "id": 3,
+                    "name": "Myers Cocktail",
+                    "duration": 30,
+                    "description": "Excellent all-around treatment. Supports healthy bones, muscles, and nerve function, boost energy levels, support the immune system."
+                },
+                {
+                    "id": 4,
+                    "name": "NAD+ 250 ML",
+                    "duration": 30,
+                    "description": "Offers a range of benefits, including enhanced cellular energy production, improved cognitive function, increased metabolic efficiency, and potential anti-aging effects."
+                },
+                {
+                    "id": 5,
+                    "name": "Weight Loss Boost",
+                    "duration": 30,
+                    "description": "Provides multiple benefits , including improved energy levels, enhanced metabolism, increased fat burning, and support for overall nutrition."
+                }
+            ]
+        },
+        {
+            "catagory": "IvBlu Event Treatments",
+            "services": [
+                {
+                    "id": 1,
+                    "name": "Beauty Boost",
+                    "duration": 30,
+                    "description": "Promotes collagen production, improves skin elasticity, reduces the appearance of wrinkles and fine lines, and boosts overall skin radiance."
+                },
+                {
+                    "id": 2,
+                    "name": "Men’s Health Boost",
+                    "duration": 30,
+                    "description": "Essential nutrients to support energy, promote vitality, enhance muscle function, and optimize overall well-being for men."
+                },
+                {
+                    "id": 3,
+                    "name": "Myers Cocktail",
+                    "duration": 30,
+                    "description": "Excellent all-around treatment. Supports healthy bones, muscles, and nerve function, boost energy levels, support the immune system."
+                },
+                {
+                    "id": 4,
+                    "name": "NAD+ 250 ML",
+                    "duration": 30,
+                    "description": "Offers a range of benefits, including enhanced cellular energy production, improved cognitive function, increased metabolic efficiency, and potential anti-aging effects."
+                },
+                {
+                    "id": 5,
+                    "name": "Weight Loss Boost",
+                    "duration": 30,
+                    "description": "Provides multiple benefits , including improved energy levels, enhanced metabolism, increased fat burning, and support for overall nutrition."
+                }
+            ]
+        },
+        {
+            "catagory": "IV Illness Reliefs",
+            "services": [
+                {
+                    "id": 1,
+                    "name": "Beauty Boost",
+                    "duration": 30,
+                    "description": "Promotes collagen production, improves skin elasticity, reduces the appearance of wrinkles and fine lines, and boosts overall skin radiance."
+                },
+                {
+                    "id": 2,
+                    "name": "Men’s Health Boost",
+                    "duration": 30,
+                    "description": "Essential nutrients to support energy, promote vitality, enhance muscle function, and optimize overall well-being for men."
+                },
+                {
+                    "id": 3,
+                    "name": "Myers Cocktail",
+                    "duration": 30,
+                    "description": "Excellent all-around treatment. Supports healthy bones, muscles, and nerve function, boost energy levels, support the immune system."
+                },
+                {
+                    "id": 4,
+                    "name": "NAD+ 250 ML",
+                    "duration": 30,
+                    "description": "Offers a range of benefits, including enhanced cellular energy production, improved cognitive function, increased metabolic efficiency, and potential anti-aging effects."
+                },
+                {
+                    "id": 5,
+                    "name": "Weight Loss Boost",
+                    "duration": 30,
+                    "description": "Provides multiple benefits , including improved energy levels, enhanced metabolism, increased fat burning, and support for overall nutrition."
+                }
+            ]
+        },
+        {
+            "catagory": "HydroGO - Quick Boosts",
+            "services": [
+                {
+                    "id": 1,
+                    "name": "Beauty Boost",
+                    "duration": 30,
+                    "description": "Promotes collagen production, improves skin elasticity, reduces the appearance of wrinkles and fine lines, and boosts overall skin radiance."
+                },
+                {
+                    "id": 2,
+                    "name": "Men’s Health Boost",
+                    "duration": 30,
+                    "description": "Essential nutrients to support energy, promote vitality, enhance muscle function, and optimize overall well-being for men."
+                },
+                {
+                    "id": 3,
+                    "name": "Myers Cocktail",
+                    "duration": 30,
+                    "description": "Excellent all-around treatment. Supports healthy bones, muscles, and nerve function, boost energy levels, support the immune system."
+                },
+                {
+                    "id": 4,
+                    "name": "NAD+ 250 ML",
+                    "duration": 30,
+                    "description": "Offers a range of benefits, including enhanced cellular energy production, improved cognitive function, increased metabolic efficiency, and potential anti-aging effects."
+                },
+                {
+                    "id": 5,
+                    "name": "Weight Loss Boost",
+                    "duration": 30,
+                    "description": "Provides multiple benefits , including improved energy levels, enhanced metabolism, increased fat burning, and support for overall nutrition."
+                }
+            ]
+        },
+        {
+            "catagory": "Specialty Facials",
+            "services": [
+                {
+                    "id": 1,
+                    "name": "Beauty Boost",
+                    "duration": 30,
+                    "description": "Promotes collagen production, improves skin elasticity, reduces the appearance of wrinkles and fine lines, and boosts overall skin radiance."
+                },
+                {
+                    "id": 2,
+                    "name": "Men’s Health Boost",
+                    "duration": 30,
+                    "description": "Essential nutrients to support energy, promote vitality, enhance muscle function, and optimize overall well-being for men."
+                },
+                {
+                    "id": 3,
+                    "name": "Myers Cocktail",
+                    "duration": 30,
+                    "description": "Excellent all-around treatment. Supports healthy bones, muscles, and nerve function, boost energy levels, support the immune system."
+                },
+                {
+                    "id": 4,
+                    "name": "NAD+ 250 ML",
+                    "duration": 30,
+                    "description": "Offers a range of benefits, including enhanced cellular energy production, improved cognitive function, increased metabolic efficiency, and potential anti-aging effects."
+                },
+                {
+                    "id": 5,
+                    "name": "Weight Loss Boost",
+                    "duration": 30,
+                    "description": "Provides multiple benefits , including improved energy levels, enhanced metabolism, increased fat burning, and support for overall nutrition."
+                }
+            ]
+        },
+        {
+            "catagory": "IvBLU Add-Ons",
+            "services": [
+                {
+                    "id": 1,
+                    "name": "Beauty Boost",
+                    "duration": 30,
+                    "description": "Promotes collagen production, improves skin elasticity, reduces the appearance of wrinkles and fine lines, and boosts overall skin radiance."
+                },
+                {
+                    "id": 2,
+                    "name": "Men’s Health Boost",
+                    "duration": 30,
+                    "description": "Essential nutrients to support energy, promote vitality, enhance muscle function, and optimize overall well-being for men."
+                },
+                {
+                    "id": 3,
+                    "name": "Myers Cocktail",
+                    "duration": 30,
+                    "description": "Excellent all-around treatment. Supports healthy bones, muscles, and nerve function, boost energy levels, support the immune system."
+                },
+                {
+                    "id": 4,
+                    "name": "NAD+ 250 ML",
+                    "duration": 30,
+                    "description": "Offers a range of benefits, including enhanced cellular energy production, improved cognitive function, increased metabolic efficiency, and potential anti-aging effects."
+                },
+                {
+                    "id": 5,
+                    "name": "Weight Loss Boost",
+                    "duration": 30,
+                    "description": "Provides multiple benefits , including improved energy levels, enhanced metabolism, increased fat burning, and support for overall nutrition."
+                }
+            ]
+        },
+        {
+            "catagory": "VitaGO Blends & Shots",
+            "services": [
+                {
+                    "id": 1,
+                    "name": "Beauty Boost",
+                    "duration": 30,
+                    "description": "Promotes collagen production, improves skin elasticity, reduces the appearance of wrinkles and fine lines, and boosts overall skin radiance."
+                },
+                {
+                    "id": 2,
+                    "name": "Men’s Health Boost",
+                    "duration": 30,
+                    "description": "Essential nutrients to support energy, promote vitality, enhance muscle function, and optimize overall well-being for men."
+                },
+                {
+                    "id": 3,
+                    "name": "Myers Cocktail",
+                    "duration": 30,
+                    "description": "Excellent all-around treatment. Supports healthy bones, muscles, and nerve function, boost energy levels, support the immune system."
+                },
+                {
+                    "id": 4,
+                    "name": "NAD+ 250 ML",
+                    "duration": 30,
+                    "description": "Offers a range of benefits, including enhanced cellular energy production, improved cognitive function, increased metabolic efficiency, and potential anti-aging effects."
+                },
+                {
+                    "id": 5,
+                    "name": "Weight Loss Boost",
+                    "duration": 30,
+                    "description": "Provides multiple benefits , including improved energy levels, enhanced metabolism, increased fat burning, and support for overall nutrition."
+                }
+            ]
+        }
+    ]
+}

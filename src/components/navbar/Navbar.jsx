@@ -1,13 +1,9 @@
 import React, { useState } from "react";
 import {
     NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuIndicator,
     NavigationMenuItem,
     NavigationMenuLink,
     NavigationMenuList,
-    NavigationMenuTrigger,
-    NavigationMenuViewport,
     navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
@@ -17,32 +13,31 @@ import data from "@/data/data";
 
 const Navbar = () => {
     const [dropdown, setDropdown] = useState("hidden");
+    const onClickHandler = () => {
+        dropdown === "hidden" ? setDropdown("") : setDropdown("hidden");
+    };
 
     return (
-        <nav className="bg-white dark:bg-gray-900 w-full border-b border-gray-200 dark:border-gray-600">
+        <nav className="bg-white dark:bg-gray-900 w-full border-b border-gray-200 dark:border-gray-600 sticky top-0 z-10">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a
-                    href="https://flowbite.com/"
+                <Link
+                    to="/"
                     className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img
                         src="https://assets-global.website-files.com/6492bbb37e861bae839b64d8/65790c0c4d08d80773edcbc7_IVBlu---Green-Logo-Transparent.png"
-                        className="h-20"
+                        className="h-16"
                         alt="Flowbite Logo"
                     />
-                </a>
+                </Link>
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     {/* <button
                         type="button"
                         className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Get started
                     </button> */}
-                    <Button className="rounded-xl">BOOK</Button>
+                    {/* <Button className="rounded-xl">BOOK</Button> */}
                     <button
-                        onClick={() =>
-                            dropdown === "hidden"
-                                ? setDropdown("")
-                                : setDropdown("hidden")
-                        }
+                        onClick={onClickHandler}
                         data-collapse-toggle="navbar-sticky"
                         type="button"
                         className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -70,18 +65,61 @@ const Navbar = () => {
                     <div>
                         <NavigationMenu>
                             <NavigationMenuList className="flex flex-col items-start justify-start sm:flex-row">
-                                {data[0]["nav"].map((nav) => (
-                                    <div key={nav} className="">
-                                        <NavigationMenuItem>
-                                            <Link to="/">
-                                                <NavigationMenuLink
-                                                    className={navigationMenuTriggerStyle()}>
-                                                    {nav.toUpperCase()}
-                                                </NavigationMenuLink>
-                                            </Link>
-                                        </NavigationMenuItem>
-                                    </div>
-                                ))}
+                                <div className="">
+                                    <NavigationMenuItem>
+                                        <Link to="/">
+                                            <NavigationMenuLink
+                                                onClick={onClickHandler}
+                                                className={navigationMenuTriggerStyle()}>
+                                                HOME
+                                            </NavigationMenuLink>
+                                        </Link>
+                                    </NavigationMenuItem>
+                                </div>
+                                <div className="">
+                                    <NavigationMenuItem>
+                                        <Link to="/all-produts">
+                                            <NavigationMenuLink
+                                                onClick={onClickHandler}
+                                                className={navigationMenuTriggerStyle()}>
+                                                PRODUCTS
+                                            </NavigationMenuLink>
+                                        </Link>
+                                    </NavigationMenuItem>
+                                </div>
+                                <div className="">
+                                    <NavigationMenuItem>
+                                        <Link to="/all-services">
+                                            <NavigationMenuLink
+                                                onClick={onClickHandler}
+                                                className={navigationMenuTriggerStyle()}>
+                                                SERVICES
+                                            </NavigationMenuLink>
+                                        </Link>
+                                    </NavigationMenuItem>
+                                </div>
+                                <div className="">
+                                    <NavigationMenuItem>
+                                        <Link to="/">
+                                            <NavigationMenuLink
+                                                onClick={onClickHandler}
+                                                className={navigationMenuTriggerStyle()}>
+                                                MEMBERSHIP
+                                            </NavigationMenuLink>
+                                        </Link>
+                                    </NavigationMenuItem>
+                                </div>
+                                <div className="">
+                                    <NavigationMenuItem>
+                                        <Link to="/">
+                                            <NavigationMenuLink
+                                                onClick={onClickHandler}
+                                                className={navigationMenuTriggerStyle()}>
+                                                FAQ
+                                            </NavigationMenuLink>
+                                        </Link>
+                                    </NavigationMenuItem>
+                                </div>
                             </NavigationMenuList>
                         </NavigationMenu>
                     </div>
