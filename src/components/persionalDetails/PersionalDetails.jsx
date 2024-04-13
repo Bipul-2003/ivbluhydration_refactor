@@ -39,6 +39,7 @@ const PersionalDetails = () => {
     return (
         <div>
             <div className="">
+                <p className="font-bold my-3 text-xl">Persional Details</p>
                 <Form {...form}>
                     <form
                         onSubmit={form.handleSubmit(onSubmit)}
@@ -94,7 +95,6 @@ const PersionalDetails = () => {
                                 </FormItem>
                             )}
                         />
-                        <Button type="submit">Submit</Button>
                     </form>
                 </Form>
             </div>
