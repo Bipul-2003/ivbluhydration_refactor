@@ -34,37 +34,52 @@ const AllServices = () => {
                                 {allservice.catagory}
                             </AccordionTrigger>
                             <AccordionContent className="h-80 overflow-y-scroll">
-                                {allservices.map((service) => (
-                                    <div key={service.catagory}>
-                                        <div className="">
-                                            {service.services.map((items) => (
-                                                <div
-                                                    className=" p-5 my-2 border border-primary rounded-lg flex space-x-2 items-baseline "
-                                                    key={items.id}>
-                                                    <Checkbox id={items.id} />
-                                                    <label htmlFor={items.id}>
-                                                        <div className="">
-                                                            <h2 className="text-xl font-bold ">
-                                                                {items.name}
-                                                            </h2>
-                                                            <p className="mb-4 text-sm ">
-                                                                {
-                                                                    items.description
-                                                                }
-                                                            </p>
-                                                            <Separator />
-                                                            <div className="flex justify-between my-4">
+                                {allservices
+                                    .filter(
+                                        (item) =>
+                                            item.catagory ===
+                                            allservice.catagory
+                                    )
+                                    .map((service) => (
+                                        <div key={service.catagory}>
+                                            <div className="grid grid-cols-2 gap-2">
+                                                {service.services.map(
+                                                    (items) => (
+                                                        <div
+                                                            className=" p-3 my-2 border border-primary rounded-lg flex space-x-2 items-baseline "
+                                                            key={items.id}>
+                                                            <Checkbox
+                                                                id={items.id}
+                                                            />
+                                                            <label
+                                                                htmlFor={
+                                                                    items.id
+                                                                }>
                                                                 <div className="">
-                                                                    <p>{`${items.duration} minutes`}</p>
+                                                                    <h2 className="text-xl font-bold ">
+                                                                        {
+                                                                            items.name
+                                                                        }
+                                                                    </h2>
+                                                                    <p className="mb-4 text-sm ">
+                                                                        {
+                                                                            items.description
+                                                                        }
+                                                                    </p>
+                                                                    <Separator />
+                                                                    <div className="flex justify-between my-4">
+                                                                        <div className="">
+                                                                            <p>{`${items.duration} minutes`}</p>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
+                                                            </label>
                                                         </div>
-                                                    </label>
-                                                </div>
-                                            ))}
+                                                    )
+                                                )}
+                                            </div>
                                         </div>
-                                    </div>
-                                ))}
+                                    ))}
                             </AccordionContent>
                         </AccordionItem>
                     </div>

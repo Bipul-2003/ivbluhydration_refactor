@@ -100,7 +100,7 @@ const Navbar = () => {
                                 </div>
                                 <div className="">
                                     <NavigationMenuItem>
-                                        <Link to="/">
+                                        <Link to="/memberships">
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>

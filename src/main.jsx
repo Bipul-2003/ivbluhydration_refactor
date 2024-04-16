@@ -8,6 +8,7 @@ import Home from "./pages/Home.jsx";
 import ProductMainPage from "./pages/ProductMainPage.jsx";
 import CkeckoutPage from "./pages/CkeckoutPage.jsx";
 import AllServices from "./pages/AllServices.jsx";
+import MembershipPage from "./pages/MembershipPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
             {
                 path: "/checkout",
                 element: <CkeckoutPage/>,
+            },
+            {
+                path: "/memberships",
+                element: <MembershipPage/>,
             },
         ],
     },
