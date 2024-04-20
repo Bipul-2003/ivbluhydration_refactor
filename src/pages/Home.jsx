@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import Product from "@/components/product/Product";
 import data from "@/data/data";
 import { Link } from "react-router-dom";
 const Home = () => {
@@ -22,6 +21,10 @@ const Home = () => {
             <section className="  mx-auto my-2">
                 <Carousel
                     plugins={[plugin.current]}
+                    opts={{
+                        align: "start",
+                        loop: true,
+                      }}
                     className="w-full relative"
                     onMouseEnter={plugin.current.stop}
                     onMouseLeave={plugin.current.reset}>

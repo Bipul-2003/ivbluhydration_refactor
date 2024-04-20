@@ -15,32 +15,15 @@ const CkeckoutPage = () => {
                 <h3 className="font-semibold text-3xl text-center pb-8">
                     CHECKOUT
                 </h3>
-                <Accordion
-                    type="single"
-                    collapsible
-                    defaultValue="1"
-                    className="w-full space-y-4">
-                    <AccordionItem value="1">
-                        <AccordionTrigger className="border-2 rounded-md p-2 bg-primary/20">
-                            Persional details
-                        </AccordionTrigger>
-                        <AccordionContent>
-                            <div className="max-w-screen-xl my-10 mx-auto">
-                                <PersionalDetails />
-                            </div>
-                        </AccordionContent>
-                    </AccordionItem>
-                    <AccordionItem value="2">
-                        <AccordionTrigger className=" border-2 rounded-md p-2 bg-primary/20">
-                            Date and Time
-                        </AccordionTrigger>
-                        <AccordionContent>
-                            <div className="max-w-screen-xl my-10 mx-auto">
-                                <DateAndTime />
-                            </div>
-                        </AccordionContent>
-                    </AccordionItem>
-                </Accordion>
+               
+                <div className="md:grid grid-cols-2 gap-x-6 ">
+                    <div className="col-span-1 mt-4">
+                        <PersionalDetails />
+                    </div>
+                    <div className="col-span-1 mt-4">
+                        <DateAndTime />
+                    </div>
+                </div>
             </div>
         </div>
     );

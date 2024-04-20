@@ -75,7 +75,7 @@ const ProductMainPage = () => {
                                 <div className="">
                                     <p>You may interested..</p>
                                     <div className="flex m-4">
-                                        <h3 className="mr-32 lg:mr-64">Name</h3>
+                                        <h3 className="mr-32 lg:mr-64">Additional item 1</h3>
                                         <div className=" flex items-center">
                                             <Button
                                                 variant="outline"
@@ -91,7 +91,7 @@ const ProductMainPage = () => {
                                         </div>
                                     </div>
                                     <div className="flex m-4">
-                                        <h3 className="mr-32 lg:mr-64">Name</h3>
+                                        <h3 className="mr-32 lg:mr-64">Additional item 2</h3>
                                         <div className=" flex items-center">
                                             <Button
                                                 variant="outline"
@@ -107,7 +107,7 @@ const ProductMainPage = () => {
                                         </div>
                                     </div>
                                     <div className="flex m-4">
-                                        <h3 className="mr-32 lg:mr-64">Name</h3>
+                                        <h3 className="mr-32 lg:mr-64">Additional item 3</h3>
                                         <div className=" flex items-center">
                                             <Button
                                                 variant="outline"
@@ -123,7 +123,7 @@ const ProductMainPage = () => {
                                         </div>
                                     </div>
                                     <div className="flex m-4">
-                                        <h3 className="mr-32 lg:mr-64">Name</h3>
+                                        <h3 className="mr-32 lg:mr-64">Additional item 4</h3>
                                         <div className=" flex items-center">
                                             <Button
                                                 variant="outline"
