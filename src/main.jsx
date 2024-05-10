@@ -6,45 +6,47 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import AllProducts from "./pages/AllProducts.jsx";
 import Home from "./pages/Home.jsx";
 import ProductMainPage from "./pages/ProductMainPage.jsx";
+import { Analytics } from "@vercel/analytics/react";
 import CkeckoutPage from "./pages/CkeckoutPage.jsx";
 import AllServices from "./pages/AllServices.jsx";
 import MembershipPage from "./pages/MembershipPage.jsx";
 
 const router = createBrowserRouter([
-    {
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
         path: "/",
-        element: <App />,
-        children: [
-            {
-                path: "/",
-                element: <Home />,
-            },
-            {
-                path: "/all-produts",
-                element: <AllProducts />,
-            },
-            {
-                path: "/all-services",
-                element: <AllServices/>,
-            },
-            {
-                path: "/products/:id",
-                element: <ProductMainPage />,
-            },
-            {
-                path: "/checkout",
-                element: <CkeckoutPage/>,
-            },
-            {
-                path: "/memberships",
-                element: <MembershipPage/>,
-            },
-        ],
-    },
+        element: <Home />,
+      },
+      {
+        path: "/all-produts",
+        element: <AllProducts />,
+      },
+      {
+        path: "/all-services",
+        element: <AllServices />,
+      },
+      {
+        path: "/products/:id",
+        element: <ProductMainPage />,
+      },
+      {
+        path: "/checkout",
+        element: <CkeckoutPage />,
+      },
+      {
+        path: "/memberships",
+        element: <MembershipPage />,
+      },
+    ],
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <React.StrictMode>
-        <RouterProvider router={router} />
-    </React.StrictMode>
+  <React.StrictMode>
+    <RouterProvider router={router} />
+    <Analytics />
+  </React.StrictMode>
 );
