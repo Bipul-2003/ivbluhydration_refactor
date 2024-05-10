@@ -56,7 +56,7 @@ const MembershipPage = () => {
                                 </p>
                             </div>
 
-                            <CardFooter className="mt-20">
+                            <CardFooter className="mt-20 flex justify-start">
                                 <Button
                                     variant="secondary"
                                     className=" rounded-[5px] py-[15px] px-[25px] text-[14px] leading-[17px] font-semibold">
