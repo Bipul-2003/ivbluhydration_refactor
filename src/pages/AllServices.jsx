@@ -44,7 +44,7 @@ const AllServices = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
       <div className="flex justify-between items-center px-2">
-        <h1 className="font-semibold text-3xl ml-4 my-4 ">Services</h1>
+        <h1 className="font-semibold text-3xl ml-4 my-4 ">Treatments</h1>
         <Link to="/checkout">
           <Button>BOOK</Button>
         </Link>
@@ -53,7 +53,7 @@ const AllServices = () => {
         You can only select two services at a time.
       </div>
       <div className="flex mx-3 items-center">
-        <span>Selected Services: </span>
+        <span>Selected Treatments: </span>
 
         {selected.map((item, index) => (
           <div key={index} className="m-1 py-1 px-2 rounded-lg bg-primary/40 ">

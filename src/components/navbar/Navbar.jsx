@@ -26,7 +26,7 @@ const Navbar = () => {
                     <img
                         src="https://assets-global.website-files.com/6492bbb37e861bae839b64d8/65790c0c4d08d80773edcbc7_IVBlu---Green-Logo-Transparent.png"
                         className="h-16"
-                        alt="Flowbite Logo"
+                        alt="logo"
                     />
                 </Link>
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -93,7 +93,29 @@ const Navbar = () => {
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
-                                                SERVICES
+                                                TREATMENTS
+                                            </NavigationMenuLink>
+                                        </Link>
+                                    </NavigationMenuItem>
+                                </div>
+                                <div className="">
+                                    <NavigationMenuItem>
+                                        <Link to="/all-services">
+                                            <NavigationMenuLink
+                                                onClick={onClickHandler}
+                                                className={navigationMenuTriggerStyle()}>
+                                                BEAUTY
+                                            </NavigationMenuLink>
+                                        </Link>
+                                    </NavigationMenuItem>
+                                </div>
+                                <div className="">
+                                    <NavigationMenuItem>
+                                        <Link to="/all-services">
+                                            <NavigationMenuLink
+                                                onClick={onClickHandler}
+                                                className={navigationMenuTriggerStyle()}>
+                                                WEIGHT LOSS
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>

@@ -16,6 +16,12 @@ import { Link } from "react-router-dom";
 const AllProducts = () => {
     const [allProducts, setAllProducts] = useState(data["products"]);
 
+    const handleSearch = (e) => {
+        const items = data["products"].filter((item) =>item.name.toLowerCase().includes(e.target.value.toLowerCase()))
+        
+        setAllProducts(items)
+    }
+
     return (
         <div className="grid grid-flow-row md:grid-cols-8 gap-4 my-4">
             <div className="col-span-2 border-r-4 border-r-gray-300 px-2 hidden md:block">
@@ -95,6 +101,7 @@ const AllProducts = () => {
                             type="text"
                             placeholder="Search the product"
                             className="max-w-sm"
+                            onChange={(e) => handleSearch(e)}
                         />
                         <Dialog>
                             <Button className="mx-2 md:hidden">
@@ -177,7 +184,7 @@ const AllProducts = () => {
                         </Dialog>
                     </div>
                 </div>
-                <div className="p-3 grid lg:grid-cols-4 grid-cols-2 place-items-center gap-2 overflow-y-scroll h-screen scroll-smooth scrollba">
+                <div className="p-3 grid lg:grid-cols-4 grid-cols-2 place-items-center gap-2 overflow-y-scroll scroll-smooth scrollba">
                     {allProducts.map((item) => (
                         <div key={item.id} className="">
                             <Link to={`/products/${item.id}`}>
