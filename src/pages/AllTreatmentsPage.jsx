@@ -47,11 +47,11 @@ const AllTreatmentsPage = () => {
     "https://purepng.com/public/uploads/large/purepng.com-thinking-womanthinking-womanwomengirlfemalethinkingbusiness-women-thinkinggirl-sitting-thinking-1421526926018eaewd.png";
   return (
     <div className=" mx-auto">
-      <div className="flex-row p-6 bg-[url(https://cdn.vectorstock.com/i/1000v/53/34/abstract-hand-drawn-green-organic-shapes-vector-44235334.avif)] bg-fill">
+      <div className="flex-row p-6 bg-[url(https://cdn.vectorstock.com/i/1000v/53/34/abstract-hand-drawn-green-organic-shapes-vector-44235334.avif)] bg-fill h-64 ">
         <h1 className="font-semibold text-3xl ml-4 my-4 text-center">
           IV HYDRATION & VITAMIN THERAPY
         </h1>
-        <p className="text-center tracking-wider leading-loose text-xs sm:text-base px-60">
+        <p className="text-center lg:tracking-wider tracking-tight leading-loose text-xs sm:text-xs lg:px-60">
           Customized to boost your health and vitality, our treatments are
           expertly formulated to nourish, invigorate, and restore your
           well-being at a cellular level. Begin your path to peak health today.
@@ -59,7 +59,7 @@ const AllTreatmentsPage = () => {
         {/* <Link to="/checkout">
           <Button>BOOK</Button>
         </Link> */}
-        <div className="w-full flex justify-center pt-4 px-8">
+        <div className="w-full flex justify-center md:pt-4 px-8">
           <a href="https://ivbluhydration.myaestheticrecord.com/online-booking/book-appointment">
           <Button>BOOK NOW</Button>
           </a>
@@ -79,7 +79,7 @@ const AllTreatmentsPage = () => {
         {response.map((item) => (
           <div className="" key={item.title}>
             <AccordionItem value={item.title}>
-              <AccordionTrigger className="border-2 rounded-md p-2 bg-primary/20 my-2">
+              <AccordionTrigger className="border-2 rounded-md p-2 bg-primary/20 my-2 text-xl">
                 {item.title}
               </AccordionTrigger>
               <AccordionContent className="">
@@ -91,23 +91,29 @@ const AllTreatmentsPage = () => {
                       className="object-cover h-full"
                     />
                   </div>
-                  <div className="col-span-3 text-base font-light font-sans">
-                    <span className="font-bold ">Purpose:</span>
+                  <div className="col-span-3 text-lg font-light font-sans">
+                    <span className="font-bold ">Purpose: </span>
                     {item.Purpose}
                     <br />
-                    <span className="font-bold">Key Benefits:</span>
+                    <div className="pt-2">
+
+                    <span className="font-bold ">Key Benefits:</span>
+                    </div>
                     <ul className="">
                       {item.keyBenefits.map((benefit, index) => (
                         <li key={index}>{`• ${benefit}`}</li>
                       ))}
                     </ul>
+                    <div className="pt-2">
+
                     ‍<span className="font-bold">Ingredients:</span>
+                    </div>
                     <ul>
                       {item.Ingredients.map((ingredient, index) => (
                         <li key={index}>{`• ${ingredient}`}</li>
                       ))}
                     </ul>
-                    <p className="text-base font-light font-sans">
+                    <p className="text-lg font-light font-sans pt-2"><span className="font-bold">Ideal For: </span>
                       {item.idealFor}
                     </p>
                     <div className="w-full flex space-x-8 px-2">
@@ -118,7 +124,7 @@ const AllTreatmentsPage = () => {
                         BOOK NOW HYDRATION BOOST $189
                       </Button> */}
 
-                      <div className="my-2  flex space-x-4 items-baseline ">
+                      <div className="my-2 flex gap-x-4 items-baseline pt-2 ">
                         {/* <Checkbox
                           id={1}
                           // checked={selected.includes(items.name)}
@@ -130,7 +136,7 @@ const AllTreatmentsPage = () => {
                         {item.options.map((option, index) => (
                           <div
                             key={index}
-                            className="lg:w-64 p-3  bg-primary/10  border border-primary rounded-lg "
+                            className="lg:w-64 h-full p-3  bg-primary/10  border border-primary rounded-lg "
                           >
                             <h2 className="text-xl font-bold pl-2">
                               {option.name}

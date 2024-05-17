@@ -71,7 +71,7 @@ const Navbar = () => {
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
-                                                HOME
+                                                Home
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
@@ -82,7 +82,7 @@ const Navbar = () => {
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
-                                                PRODUCTS
+                                                Products
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
@@ -93,7 +93,7 @@ const Navbar = () => {
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
-                                                TREATMENTS
+                                                Treatments
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
@@ -104,7 +104,7 @@ const Navbar = () => {
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
-                                                SERVICES
+                                                Services
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
@@ -115,7 +115,7 @@ const Navbar = () => {
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
-                                                BEAUTY
+                                                Beauty
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
@@ -126,31 +126,42 @@ const Navbar = () => {
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
-                                                WEIGHT LOSS
+                                                Weight Loss
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
                                 </div>
                                 <div className="">
                                     <NavigationMenuItem>
-                                        <Link to="/memberships">
+                                        <a href="https://ivbluhydration.myaestheticrecord.com/online-booking/memberships">
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
-                                                MEMBERSHIP
+                                                Membership
+                                            </NavigationMenuLink>
+                                        </a>
+                                    </NavigationMenuItem>
+                                </div>
+                                <div className="">
+                                    <NavigationMenuItem>
+                                        <Link to="https://ivbluhydration.myaestheticrecord.com/online-booking/giftcards">
+                                            <NavigationMenuLink
+                                                onClick={onClickHandler}
+                                                className={navigationMenuTriggerStyle()}>
+                                                eGift Cards
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
                                 </div>
                                 <div className="">
                                     <NavigationMenuItem>
-                                        <Link to="/">
+                                        <a href="https://ivbluhydration.myaestheticrecord.com/online-booking/giftcards">
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
                                                 FAQ
                                             </NavigationMenuLink>
-                                        </Link>
+                                        </a>
                                     </NavigationMenuItem>
                                 </div>
                             </NavigationMenuList>

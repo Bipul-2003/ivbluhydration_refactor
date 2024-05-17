@@ -62,7 +62,7 @@ const Home = () => {
                 </Carousel>
             </section>
 
-            <section className="bg-gradient-to-bl from-primary/90 to-primary/70 space-y-4 py-10 mt-6 px-1">
+            <section className="bg-gradient-to-bl from-primary/60 to-primary/30 space-y-4 py-10 mt-6 px-1">
                 <h2 className="text-center font-semibold text-2xl sm:text-4xl">
                     Begin Your Wellness Transformation
                 </h2>
@@ -86,7 +86,7 @@ const Home = () => {
             </section>
             <section className="py-6">
                 <h2 className="text-center font-semibold text-2xl sm:text-4xl mb-6">
-                    Current Promotion
+                    Trending Products
                 </h2>
 
                 <div className=" flex flex-col space-y-4 justify-center items-center my-2 ">
@@ -118,17 +118,18 @@ const Home = () => {
                         <CarouselPrevious className=" bg-inherit hidden sm:flex  " />
                         <CarouselNext className="bg-inherit absolute right-6 sm:-right-10 sm:flex" />
                     </Carousel>
-                    <Link to="/all-produts">
-                        <Button>View more</Button>
+                    <Link to="/all-products">
+                        <Button>Products Info</Button>
                     </Link>
                 </div>
             </section>
-            <section className="py-28 bg-primary/80">
+            <section className="py-28 bg-primary/50">
                 <h2 className="text-center font-semibold text-2xl sm:text-4xl">
                     Your Journey to Exceptional Health Begins Here
                 </h2>
                 <div className="max-w-xl sm:max-w-4xl mx-auto px-2 flex-col flex items-center mt-6">
-                    <Button className="text-black">
+                    <a href=""></a>
+                    <Button className="text-white">
                         Learn more about memebership
                     </Button>
                 </div>
