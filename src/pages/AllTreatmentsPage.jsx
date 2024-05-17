@@ -91,7 +91,7 @@ const AllTreatmentsPage = () => {
                       className="object-cover h-full"
                     />
                   </div>
-                  <div className="col-span-3 text-base font-light font-sans">
+                  <div className="col-span-3 text-sm font-light font-sans">
                     <span className="font-bold ">Purpose: </span>
                     {item.Purpose}
                     <br />
@@ -113,7 +113,7 @@ const AllTreatmentsPage = () => {
                         <li key={index}>{`• ${ingredient}`}</li>
                       ))}
                     </ul>
-                    <p className="text-base font-light font-sans pt-2"><span className="font-bold">Ideal For: </span>
+                    <p className="text-sm font-light font-sans pt-2"><span className="font-bold">Ideal For: </span>
                       {item.idealFor}
                     </p>
                     <div className="w-full flex space-x-8 px-2">
