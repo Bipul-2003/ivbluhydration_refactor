@@ -16,40 +16,40 @@ const allservices = data.allservices;
 // console.log(allservices);
 
 const AllServices = () => {
-  const [selected, setSelected] = useState([]);
-  const [exceed, setExceed] = useState(false);
+  // const [selected, setSelected] = useState([]);
+  // const [exceed, setExceed] = useState(false);
 
-  const handelSelect = (item, isChecked) => {
-    setSelected((prevState) => {
-      const updatedItems = [...prevState]; // Create a copy to avoid mutation
-      if (isChecked) {
-        if (selected.length < 2) {
-          updatedItems.push(item); // Add the item if checked
-        } else {
-          setExceed(true);
-        }
-      } else {
-        const itemIndex = updatedItems.findIndex(
-          (existingItem) => existingItem === item
-        );
-        if (itemIndex !== -1) {
-          updatedItems.splice(itemIndex, 1); // Remove the item if unchecked
-          setExceed(false);
-        }
-      }
-      return updatedItems;
-    });
-  };
+  // const handelSelect = (item, isChecked) => {
+  //   setSelected((prevState) => {
+  //     const updatedItems = [...prevState]; // Create a copy to avoid mutation
+  //     if (isChecked) {
+  //       if (selected.length < 2) {
+  //         updatedItems.push(item); // Add the item if checked
+  //       } else {
+  //         setExceed(true);
+  //       }
+  //     } else {
+  //       const itemIndex = updatedItems.findIndex(
+  //         (existingItem) => existingItem === item
+  //       );
+  //       if (itemIndex !== -1) {
+  //         updatedItems.splice(itemIndex, 1); // Remove the item if unchecked
+  //         setExceed(false);
+  //       }
+  //     }
+  //     return updatedItems;
+  //   });
+  // };
 
   return (
     <div className="max-w-screen-xl mx-auto">
       <div className="flex justify-between items-center px-2">
-        <h1 className="font-semibold text-3xl ml-4 my-4 ">Treatments</h1>
-        <Link to="/checkout">
+        <h1 className="font-semibold text-3xl ml-4 my-4 ">Services</h1>
+        <a href="https://ivbluhydration.myaestheticrecord.com/online-booking?services=true">
           <Button>BOOK</Button>
-        </Link>
+        </a>
       </div>
-      <div className="text-red-700 text-center" hidden={!exceed}>
+      {/* <div className="text-red-700 text-center" >
         You can only select two services at a time.
       </div>
       <div className="flex mx-3 items-center">
@@ -60,7 +60,7 @@ const AllServices = () => {
             {item}
           </div>
         ))}
-      </div>
+      </div> */}
 
       <Accordion type="single" collapsible>
         {allservices.map((allservice) => (
@@ -80,14 +80,13 @@ const AllServices = () => {
                             className=" p-3 my-2 border border-primary rounded-lg flex space-x-2 items-baseline "
                             key={items.id}
                           >
-                            <Checkbox
+                            {/* <Checkbox
                               id={items.id}
                               checked={selected.includes(items.name)}
                               onCheckedChange={(checked) =>
                                 handelSelect(items.name, checked)
                               }
-                            />
-                            <label htmlFor={items.id}>
+                            /> */}
                               <div className="">
                                 <h2 className="text-xl font-bold ">
                                   {items.name}
@@ -102,7 +101,6 @@ const AllServices = () => {
                                   </div>
                                 </div>
                               </div>
-                            </label>
                           </div>
                         ))}
                       </div>

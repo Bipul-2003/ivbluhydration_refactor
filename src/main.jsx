@@ -10,6 +10,7 @@ import { Analytics } from "@vercel/analytics/react";
 import CkeckoutPage from "./pages/CkeckoutPage.jsx";
 import AllServices from "./pages/AllServices.jsx";
 import MembershipPage from "./pages/MembershipPage.jsx";
+import AllTreatmentsPage from "./pages/AllTreatmentsPage";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/all-services",
         element: <AllServices />,
+      },
+      {
+        path: "/all-treatments",
+        element: <AllTreatmentsPage />,
       },
       {
         path: "/products/:id",

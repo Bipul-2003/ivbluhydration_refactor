@@ -98,16 +98,18 @@ const Home = () => {
                                     className="px-2  md:basis-1/2 lg:basis-1/3">
                                     <div className="p-1">
                                         <Card className="h-64 w-82 bg-white border-none">
-                                            <CardContent className="flex rounded-md items-center justify-center p-2  h-full w-full border border-primary">
+                                            <CardContent className="flex rounded-md items-center justify-center p-2  h-56 w-full border border-primary">
                                                 <img
                                                     src={product.image}
-                                                    className="object-cover h-52 w-82 bg-muted border-none"
+                                                    className="object-fill opacity-90 hover:opacity-50 w-full h-full bg-muted border-none"
                                                     alt="Logo "
                                                 />
-                                                <p className="text-black absolute bottom-4 opacity-80 font-sans w-full text-center mt-5">
+                                                
+                                            </CardContent>
+                                            <p className="text-black opacity-80 font-sans w-full text-center text-xl font-bold ">
                                                     {product.name}
                                                 </p>
-                                            </CardContent>
+                                            
                                         </Card>
                                     </div>
                                 </CarouselItem>

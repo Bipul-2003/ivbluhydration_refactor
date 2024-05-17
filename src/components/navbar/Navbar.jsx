@@ -89,11 +89,22 @@ const Navbar = () => {
                                 </div>
                                 <div className="">
                                     <NavigationMenuItem>
-                                        <Link to="/all-services">
+                                        <Link to="/all-treatments">
                                             <NavigationMenuLink
                                                 onClick={onClickHandler}
                                                 className={navigationMenuTriggerStyle()}>
                                                 TREATMENTS
+                                            </NavigationMenuLink>
+                                        </Link>
+                                    </NavigationMenuItem>
+                                </div>
+                                <div className="">
+                                    <NavigationMenuItem>
+                                        <Link to="/all-services">
+                                            <NavigationMenuLink
+                                                onClick={onClickHandler}
+                                                className={navigationMenuTriggerStyle()}>
+                                                SERVICES
                                             </NavigationMenuLink>
                                         </Link>
                                     </NavigationMenuItem>
