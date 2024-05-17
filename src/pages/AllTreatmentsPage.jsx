@@ -79,7 +79,7 @@ const AllTreatmentsPage = () => {
         {response.map((item) => (
           <div className="" key={item.title}>
             <AccordionItem value={item.title}>
-              <AccordionTrigger className="border-2 rounded-md p-2 bg-primary/20 my-2 text-xl">
+              <AccordionTrigger className="border-2 rounded-md p-2 bg-primary/20 my-2">
                 {item.title}
               </AccordionTrigger>
               <AccordionContent className="">
@@ -91,7 +91,7 @@ const AllTreatmentsPage = () => {
                       className="object-cover h-full"
                     />
                   </div>
-                  <div className="col-span-3 text-lg font-light font-sans">
+                  <div className="col-span-3 text-base font-light font-sans">
                     <span className="font-bold ">Purpose: </span>
                     {item.Purpose}
                     <br />
@@ -113,7 +113,7 @@ const AllTreatmentsPage = () => {
                         <li key={index}>{`• ${ingredient}`}</li>
                       ))}
                     </ul>
-                    <p className="text-lg font-light font-sans pt-2"><span className="font-bold">Ideal For: </span>
+                    <p className="text-base font-light font-sans pt-2"><span className="font-bold">Ideal For: </span>
                       {item.idealFor}
                     </p>
                     <div className="w-full flex space-x-8 px-2">
@@ -138,7 +138,7 @@ const AllTreatmentsPage = () => {
                             key={index}
                             className="lg:w-64 h-full p-3  bg-primary/10  border border-primary rounded-lg "
                           >
-                            <h2 className="text-xl font-bold pl-2">
+                            <h2 className="text-base font-bold pl-2">
                               {option.name}
                             </h2>
                             <ul className="list-disc marker:text-black pl-8 pb-2 ">
