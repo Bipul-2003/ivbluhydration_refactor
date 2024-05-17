@@ -91,29 +91,29 @@ const AllTreatmentsPage = () => {
                       className="object-cover h-full"
                     />
                   </div>
-                  <div className="col-span-3 text-sm font-light font-sans">
-                    <span className="font-bold ">Purpose: </span>
+                  <div className="col-span-3 text-sm ">
+                    <span className="font-bold  tracking-wider">Purpose: </span>
                     {item.Purpose}
                     <br />
-                    <div className="pt-2">
+                    <div className="pt-4">
 
-                    <span className="font-bold ">Key Benefits:</span>
+                    <span className="font-bold   tracking-wider">Key Benefits:</span>
                     </div>
-                    <ul className="">
+                    <ul className="tracking-wider">
                       {item.keyBenefits.map((benefit, index) => (
                         <li key={index}>{`• ${benefit}`}</li>
                       ))}
                     </ul>
-                    <div className="pt-2">
+                    <div className="pt-4">
 
-                    ‍<span className="font-bold">Ingredients:</span>
+                    ‍<span className="font-bold  ">Ingredients:</span>
                     </div>
-                    <ul>
+                    <ul className="tracking-wider">
                       {item.Ingredients.map((ingredient, index) => (
                         <li key={index}>{`• ${ingredient}`}</li>
                       ))}
                     </ul>
-                    <p className="text-sm font-light font-sans pt-2"><span className="font-bold">Ideal For: </span>
+                    <p className="pt-4 tracking-wider"><span className="font-bold tracking-wider">Ideal For: </span>
                       {item.idealFor}
                     </p>
                     <div className="w-full flex space-x-8 px-2">
