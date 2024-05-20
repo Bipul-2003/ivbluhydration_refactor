@@ -34,6 +34,11 @@
   ],
   "promtional-produts": [
     {
+      "name": "Weight Loss Package: 2024 Slim Down",
+      "image": "https://armedia.s3.us-west-2.amazonaws.com/afa187dfbf27627d43877a76371785f5/onlineBookingPromotionsImages/1704249829_IVBlu---Green.png",
+      "description": "Includes FREE Consultation, Lab Work, 12 Weekly Shots, Diet Plan , Monitoring by a LICENSED medical team, including RN & MD. Regular Price $2650"
+    },
+    {
       "name": "VitaGO Max",
       "image": "https://armedia.s3.us-west-2.amazonaws.com/afa187dfbf27627d43877a76371785f5/onlineBookingPromotionsImages/1695014949_vitago1.png",
       "description": "This lightweight serum is infused with rose water and hyaluronic acid to deeply hydrate and nourish your skin, leaving it feeling plump and dewy."
@@ -474,19 +479,19 @@
     {
       "title": "Hydrolife Athletic Edge",
       "Purpose": "The 'Hydrolife Athletic Edge' is a specialized IV hydration treatment crafted for athletes and active individuals. It's engineered to support peak physical performance and accelerate recovery.",
-      "keyBenefits": [
-        "Rapid Muscle Recovery: Aids in quick muscle recovery post-exercise, reducing soreness and fatigue.",
-        "Enhanced Hydration: Optimizes hydration levels far more efficiently than oral intake, crucial during and after Intense physical activities.",
-        "Boosted Energy Levels: Replenishes essential nutrients and electrolytes lost during strenuous workouts, maintaining energy and stamina.",
-        "Improved Endurance: Fortifies the body against the stresses of long-duration sports, helping to maintain peak performance for longer."
-      ],
-      "Ingredients": [
-        "Electrolytes: Essential for maintaining hydration and muscle function.",
-        " B-Complex Vitamins: Vital for energy production and efficient metabolic processing.",
-        " Amino Acids: Support muscle repair, growth, and endurance.",
-        "Magnesium: Reduces muscle cramps and improves cardiovascular health.",
-        " Antioxidants: Combat oxidative stress and aid in reducing inflammation."
-      ],
+      "keyBenefits": {
+        "Rapid Muscle Recovery: ":"Aids in quick muscle recovery post-exercise, reducing soreness and fatigue.",
+        "Enhanced Hydration: ":" Optimizes hydration levels far more efficiently than oral intake, crucial during and after Intense physical activities.",
+        "Boosted Energy Levels: ":" Replenishes essential nutrients and electrolytes lost during strenuous workouts, maintaining energy and stamina.",
+        "Improved Endurance: ":" Fortifies the body against the stresses of long-duration sports, helping to maintain peak performance for longer."
+    },
+      "Ingredients": {
+        "Electrolytes: ":" Essential for maintaining hydration and muscle function.",
+        " B-Complex Vitamins: ":" Vital for energy production and efficient metabolic processing.",
+        " Amino Acids: ":" Support muscle repair, growth, and endurance.",
+        "Magnesium: ":" Reduces muscle cramps and improves cardiovascular health.",
+        " Antioxidants: ":" Combat oxidative stress and aid in reducing inflammation."
+      },
       "idealFor": "Professional athletes, fitness enthusiasts, and individuals who engage in regular intense physical activity. This treatment is perfect for those seeking to enhance their athletic performance and accelerate post-exercise recovery.",
       "options": [
         { "name": "HYDRATION BOOST", "price": 189 },
@@ -496,19 +501,19 @@
     {
       "title": "Hydrolife Health & Wellness",
       "Purpose": "'Hydrolife Health & Wellness' is a comprehensive IV hydration treatment created for the everyday health and wellness needs of our clients. It's designed to rejuvenate, detoxify, and energize the body, catering to those who lead busy, active lifestyles.",
-      "keyBenefits": [
-        "Enhanced Hydration: Delivers essential hydration directly to your bloodstream, more effectively than drinking water.",
-        "Detoxification: Helps flush out toxins, promoting a healthier, more balanced internal environment.",
-        "Energy Boost: Replenishes vital nutrients and minerals, reducing fatigue and boosting overall energy levels.",
-        "Immune Support: Strengthens the immune system with a blend of vitamins and antioxidants, crucial for maintaining health in a busy lifestyle."
-      ],
-      "Ingredients": [
-        "Electrolytes: Key for maintaining hydration and supporting cellular function.",
-        " Vitamin B Complex: Essential for energy production and maintaining optimal metabolic function.",
-        " Vitamin C: Supports immune function and acts as a powerful antioxidant.",
-        "Minerals like Zinc and Selenium: Boost immune response and protect against oxidative damage.",
-        "Amino Acids: Support overall wellness, aiding in tissue repair and nutrient absorption."
-      ],
+      "keyBenefits": {
+        "Enhanced Hydration: ":" Delivers essential hydration directly to your bloodstream, more effectively than drinking water.",
+        "Detoxification: ":" Helps flush out toxins, promoting a healthier, more balanced internal environment.",
+        "Energy Boost: ":" Replenishes vital nutrients and minerals, reducing fatigue and boosting overall energy levels.",
+        "Immune Support: ":" Strengthens the immune system with a blend of vitamins and antioxidants, crucial for maintaining health in a busy lifestyle."
+      },
+      "Ingredients": {
+        "Electrolytes :":" Key for maintaining hydration and supporting cellular function.",
+        " Vitamin B Complex :":" Essential for energy production and maintaining optimal metabolic function.",
+        " Vitamin C :":" Supports immune function and acts as a powerful antioxidant.",
+        "Minerals like Zinc and Selenium :":" Boost immune response and protect against oxidative damage.",
+        "Amino Acids :":" Support overall wellness, aiding in tissue repair and nutrient absorption."
+      },
       "idealFor": " Individuals seeking to enhance their day-to-day vitality and wellness. Whether you're a busy professional, a parent juggling multiple responsibilities, or someone looking to support their overall health, this treatment is tailored to meet a variety of wellness goals.",
       "options": [
         { "name": "MYERS COCKTAIL", "price": 289 },
@@ -518,19 +523,19 @@
     {
       "title": "HydroGo Energy",
       "Purpose": "'HydroGo Energy' is a signature IV hydration treatment formulated for instant rejuvenation. It's the perfect quick fix for those who need an immediate pick-me-up, combining essential vitamins, minerals, and hydration to effectively combat fatigue and restore vitality.",
-      "keyBenefits": [
-        "Instant Energy Boost: Specially designed to quickly alleviate tiredness and boost energy levels.",
-        "Rapid Hydration: Delivers hydration directly to your bloodstream, instantly improving hydration status.",
-        "Nutrient Replenishment: Packed with essential vitamins and minerals to replenish what your body loses in a busy, active day.",
-        "Mental Clarity: Helps clear the fog of fatigue, enhancing focus and cognitive function."
-      ],
-      "Ingredients": [
-        " B-Complex Vitamins: For energy metabolism and reducing tiredness.",
-        " Electrolytes: To quickly restore the body's hydration balance.",
-        "  Magnesium: For its role in energy production and muscle function.",
-        "Vitamin C: To support overall wellness and immune health.",
-        "Trace Minerals: To replenish essential nutrients and support various bodily functions."
-      ],
+      "keyBenefits": {
+        "Instant Energy Boost: ":" Specially designed to quickly alleviate tiredness and boost energy levels.",
+        "Rapid Hydration: ":" Delivers hydration directly to your bloodstream, instantly improving hydration status.",
+        "Nutrient Replenishment: ":" Packed with essential vitamins and minerals to replenish what your body loses in a busy, active day.",
+        "Mental Clarity: ":" Helps clear the fog of fatigue, enhancing focus and cognitive function."
+      },
+      "Ingredients": {
+        " B-Complex Vitamins: ":" For energy metabolism and reducing tiredness.",
+        " Electrolytes: ":" To quickly restore the body's hydration balance.",
+        "  Magnesium: ":" For its role in energy production and muscle function.",
+        "Vitamin C: ":" To support overall wellness and immune health.",
+        "Trace Minerals: ":" To replenish essential nutrients and support various bodily functions."
+      },
       "idealFor": "Anyone who needs a fast and effective way to recharge, from busy professionals to students, and those with active lifestyles. Whether you're recovering from a long flight, a night out, or simply need a midday boost, this treatment offers a quick solution to bounce back with renewed energy.",
       "options": [
         { "name": "HYDROGO", "price": 169 },
@@ -540,23 +545,23 @@
     {
       "title": "VitaGo Total Wellness",
       "Purpose": "The 'VitaGo Total Wellness' is a holistic IV hydration treatment, carefully curated with a blend of vitamins, minerals, and nutrients. It's crafted to align with and support your health goals, whether they're focused on overall well-being, preventive health, or specific wellness objectives.",
-      "keyBenefits": [
-        "Enhanced Hydration: Delivers essential hydration directly to your bloodstream, more effectively than drinking water.",
-        "Detoxification: Helps flush out toxins, promoting a healthier, more balanced internal environment.",
-        " Energy Boost: Replenishes vital nutrients and minerals, reducing fatigue and boosting overall energy levels.",
-        " Immune Support: Strengthens the immune system with a blend of vitamins and antioxidants, crucial for maintaining health in a busy lifestyle.",
-        " Comprehensive Well-Being: Aids in achieving a balanced state of health and wellness, addressing various body needs.",
-        "Nutritional Support: Provides a spectrum of essential nutrients that may be lacking in everyday diets.",
-        "Immune Enhancement: Fortifies the immune system, crucial for maintaining health and preventing illness.",
-        "Stress Relief: Contains elements that help in reducing stress and improving mental well-being."
-      ],
-      "Ingredients": [
-        " Electrolytes: Key for maintaining hydration and supporting cellular function.",
-        " Vitamin B Complex: Essential for energy production and maintaining optimal metabolic function.",
-        " Vitamin C: Supports immune function and acts as a powerful antioxidant.",
-        "Minerals like Zinc and Selenium: Boost immune response and protect against oxidative damage.",
-        "Amino Acids: Support overall wellness, aiding in tissue repair and nutrient absorption."
-      ],
+      "keyBenefits": {
+        "Enhanced Hydration: ":" Delivers essential hydration directly to your bloodstream, more effectively than drinking water.",
+        "Detoxification: ":" Helps flush out toxins, promoting a healthier, more balanced internal environment.",
+        " Energy Boost: ":" Replenishes vital nutrients and minerals, reducing fatigue and boosting overall energy levels.",
+        " Immune Support: ":" Strengthens the immune system with a blend of vitamins and antioxidants, crucial for maintaining health in a busy lifestyle.",
+        " Comprehensive Well-Being: ":" Aids in achieving a balanced state of health and wellness, addressing various body needs.",
+        "Nutritional Support: ":" Provides a spectrum of essential nutrients that may be lacking in everyday diets.",
+        "Immune Enhancement: ":" Fortifies the immune system, crucial for maintaining health and preventing illness.",
+        "Stress Relief: ":" Contains elements that help in reducing stress and improving mental well-being."
+      },
+      "Ingredients": {
+        " Electrolytes: ":" Key for maintaining hydration and supporting cellular function.",
+        " Vitamin B Complex: ":" Essential for energy production and maintaining optimal metabolic function.",
+        " Vitamin C: ":" Supports immune function and acts as a powerful antioxidant.",
+        "Minerals like Zinc and Selenium: ":" Boost immune response and protect against oxidative damage.",
+        "Amino Acids: ":" Support overall wellness, aiding in tissue repair and nutrient absorption."
+      },
       "idealFor": "Individuals seeking to enhance their day-to-day vitality and wellness. Whether you're a busy professional, a parent juggling multiple responsibilities, or someone looking to support their overall health, this treatment is tailored to meet a variety of wellness goals.",
       "options": [
         { "name": "BLEND I", "price": 99 },

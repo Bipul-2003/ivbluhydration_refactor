@@ -11,7 +11,6 @@ import {
 } from "@/components/ui/accordion";
 import { Link } from "react-router-dom";
 
-
 // const allservices = data.treatmets;
 // console.log(allservices);
 
@@ -61,7 +60,7 @@ const AllTreatmentsPage = () => {
         </Link> */}
         <div className="w-full flex justify-center md:pt-4 px-8">
           <a href="https://ivbluhydration.myaestheticrecord.com/online-booking/book-appointment">
-          <Button>BOOK NOW</Button>
+            <Button>BOOK NOW</Button>
           </a>
         </div>
       </div>
@@ -83,7 +82,7 @@ const AllTreatmentsPage = () => {
                 {item.title}
               </AccordionTrigger>
               <AccordionContent className="">
-                <div className="grid grid-cols-5 gap-x-8">
+                <div className="md:grid grid-cols-5 gap-x-8">
                   <div className="col-span-2 h-25 bg-primary/30 rounded-lg">
                     <img
                       src="https://purepng.com/public/uploads/large/purepng.com-thinking-womanthinking-womanwomengirlfemalethinkingbusiness-women-thinkinggirl-sitting-thinking-1421526926018eaewd.png"
@@ -91,29 +90,38 @@ const AllTreatmentsPage = () => {
                       className="object-cover h-full"
                     />
                   </div>
-                  <div className="col-span-3 text-sm ">
+                  <div className="col-span-3 text-sm mt-4">
                     <span className="font-bold  tracking-wider">Purpose: </span>
                     {item.Purpose}
                     <br />
                     <div className="pt-4">
-
-                    <span className="font-bold   tracking-wider">Key Benefits:</span>
+                      <span className="font-bold   tracking-wider">
+                        Key Benefits:
+                      </span>
                     </div>
                     <ul className="tracking-wider">
-                      {item.keyBenefits.map((benefit, index) => (
-                        <li key={index}>{`• ${benefit}`}</li>
+                      {Object.entries(item.keyBenefits).map(([key, value]) => (
+                        <li key={key}>
+                          <span className="font-bold">{`• ${key}`}</span>
+                          <span>{value}</span>
+                        </li>
                       ))}
                     </ul>
                     <div className="pt-4">
-
-                    ‍<span className="font-bold  ">Ingredients:</span>
+                      ‍<span className="font-bold  ">Ingredients:</span>
                     </div>
                     <ul className="tracking-wider">
-                      {item.Ingredients.map((ingredient, index) => (
-                        <li key={index}>{`• ${ingredient}`}</li>
+                      {Object.entries(item.Ingredients).map(([key, value]) => (
+                        <li key={key}>
+                        <span className="font-bold">{`• ${key}`}</span>
+                        <span>{value}</span>
+                      </li>
                       ))}
                     </ul>
-                    <p className="pt-4 tracking-wider"><span className="font-bold tracking-wider">Ideal For: </span>
+                    <p className="pt-4 tracking-wider">
+                      <span className="font-bold tracking-wider">
+                        Ideal For:{" "}
+                      </span>
                       {item.idealFor}
                     </p>
                     <div className="w-full flex space-x-8 px-2">
@@ -136,7 +144,7 @@ const AllTreatmentsPage = () => {
                         {item.options.map((option, index) => (
                           <div
                             key={index}
-                            className="lg:w-64 h-full p-3  bg-primary/10  border border-primary rounded-lg "
+                            className="lg:w-64 h-full text-xs p-3  bg-primary/10  border border-primary rounded-lg "
                           >
                             <h2 className="text-base font-bold pl-2">
                               {option.name}
