@@ -128,10 +128,11 @@ const Home = () => {
                     Your Journey to Exceptional Health Begins Here
                 </h2>
                 <div className="max-w-xl sm:max-w-4xl mx-auto px-2 flex-col flex items-center mt-6">
-                    <a href=""></a>
+                    <Link to="https://ivbluhydration.myaestheticrecord.com/online-booking/memberships/">
                     <Button className="text-white">
                         Learn more about memebership
                     </Button>
+                    </Link>
                 </div>
             </section>
             {/* <Product /> */}
