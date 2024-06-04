@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import data from "../data/data.json";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Link } from "react-router-dom";
 
 // const allservices = data.treatmets;
 // console.log(allservices);
