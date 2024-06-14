@@ -55,9 +55,9 @@ const Navbar = () => {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap={'round'}
+                strokeLinejoin={"round"}
+                strokeWidth={"2"}
                 d="M1 1h15M1 7h15M1 13h15"
               />
             </svg>
@@ -143,38 +143,44 @@ const Navbar = () => {
                 </div>
                 <div className="">
                   <NavigationMenuItem>
-                    <a href="https://ivbluhydration.myaestheticrecord.com/online-booking/memberships">
                       <NavigationMenuLink
                         onClick={onClickHandler}
                         className={navigationMenuTriggerStyle()}
                       >
                         Membership
                       </NavigationMenuLink>
-                    </a>
                   </NavigationMenuItem>
                 </div>
                 <div className="">
                   <NavigationMenuItem>
-                    <a href="https://ivbluhydration.myaestheticrecord.com/online-booking/giftcards">
                       <NavigationMenuLink
                         onClick={onClickHandler}
                         className={navigationMenuTriggerStyle()}
                       >
                         eGift Cards
                       </NavigationMenuLink>
-                    </a>
                   </NavigationMenuItem>
                 </div>
                 <div className="">
                   <NavigationMenuItem>
-                    <a href="https://ivbluhydration.myaestheticrecord.com/online-booking/giftcards">
                       <NavigationMenuLink
                         onClick={onClickHandler}
                         className={navigationMenuTriggerStyle()}
                       >
                         FAQ
                       </NavigationMenuLink>
-                    </a>
+                  </NavigationMenuItem>
+                </div>
+                <div className="">
+                  <NavigationMenuItem>
+                    <Link to="/login">
+                      <NavigationMenuLink
+                        onClick={onClickHandler}
+                        className={navigationMenuTriggerStyle()}
+                      >
+                        Login
+                      </NavigationMenuLink>
+                    </Link>
                   </NavigationMenuItem>
                 </div>
               </NavigationMenuList>

@@ -1,0 +1,123 @@
+/* src/NurseDashboard.module.css */
+.dashboardContainer {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .section label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .section input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .section button:hover {
+    background: #45a049;
+  }
+  .selectDateAllbox{
+    display: flex;
+    justify-content: right;
+  }
+  /* NurseDashboard.module.css */
+
+.dashboardContainer {
+  padding: 20px;
+}
+
+.tabContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabButton {
+  flex: 1;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.tabButton:hover {
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.selectDateAllbox {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

@@ -11,6 +11,9 @@ import CkeckoutPage from "./pages/CkeckoutPage.jsx";
 import AllServices from "./pages/AllServices.jsx";
 import MembershipPage from "./pages/MembershipPage.jsx";
 import AllTreatmentsPage from "./pages/AllTreatmentsPage";
+import LoginPage from "./pages/Login.jsx";
+import NurseDashboardPage from "./pages/NurseDashboard.jsx";
+import AdminDashboardPage from "./pages/AdminDashboard.jsx";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +48,18 @@ const router = createBrowserRouter([
         path: "/memberships",
         element: <MembershipPage />,
       },
+      {
+        path: "/login",
+        element: <LoginPage />,
+      },
+      {
+        path: "/nurse-dashboard",
+        element: <NurseDashboardPage />,
+      },
+      {
+        path: "/admin-dashboard",
+        element: <AdminDashboardPage />,
+      }
     ],
   },
 ]);
